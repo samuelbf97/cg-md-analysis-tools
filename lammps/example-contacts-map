@@ -1,9 +1,0 @@
-python protein_rna_contact_analysis.py result.lammpstrj \
-    --protein-length 305 \
-    --rna-length 250 \
-    --n-proteins 60 \
-    --cutoff 8.0 \
-    --skip-frames 0 \
-    --rna-count-mode binary \
-    --rna-normalization-mode all_frames \
-    --output-dir contact_analysis_output
